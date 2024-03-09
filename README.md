@@ -1,4 +1,4 @@
-# Personal_Website
+# My Personal Website
 
 
 This is the GitHub repository for my personal website, which will display my skillset, recent projects and it will give a little insight into my life!
