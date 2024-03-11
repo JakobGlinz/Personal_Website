@@ -3,6 +3,11 @@ html, body {
   padding: 0;
 }
 
+
+
+
+
+
 /*
 
 Page into css below
@@ -47,7 +52,7 @@ Page into css below
 
 .info-text{
 
-  color: white; 
+  color: #CCCCCC; 
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: larger;
   text-decoration: none;
@@ -103,14 +108,78 @@ Page into css below
   );
   transition: all 0.475s;
 }
-
-
-
 /*
 
 Page into css above
 
 */
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+About me css below
+
+*/
+
+.AboutMe-Div{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  background-color: #31363F;
+  min-height: 1000px;
+}
+
+.Text-Div {
+  flex: 1;
+  width: 50%; 
+  max-width: 700px;
+  padding: 50px;
+
+}
+
+.Photo-Div {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding: 50px;
+}
+
+.AboutMePic {
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.h1-AboutMe {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.p-text {
+  color: #CCCCCC;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/*
+
+About me css above
+
+*/
+
 
 
 

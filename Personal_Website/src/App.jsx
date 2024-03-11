@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import NavBar from './NavBar.jsx';
 import Intro from './IntroPage.jsx';
+import AboutMe from './AboutMe.jsx';
 
 import './App.css';
 import './index.css';
@@ -17,6 +18,7 @@ function App() {
                                   <>
                                     <NavBar />
                                     <Intro />
+                                    <AboutMe />
                                   </>
                                 } />
         <Route path="/" element={<></>} />

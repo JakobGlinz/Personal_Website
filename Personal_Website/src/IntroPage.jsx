@@ -27,7 +27,7 @@ function Into(){
               <a className="info-text emailme" id="email_me" href="mailto:jakob.glinz@gmx.at">jakob.glinz@gmx.at</a>
             </div>
             <div className="btn-div">
-              <button class="button">
+              <button className="button">
                <a className="button-content" href="src/assets/Jakob_Glinz_resume.pdf" download>Download CV</a>
               </button>
             </div>
