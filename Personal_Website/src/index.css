@@ -1,0 +1,120 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+
+Page into css below
+
+*/
+.Intro-Div{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  background-color: #222831;
+  min-height: 800px;
+  max-height: 800px;
+}
+
+
+
+.Text-Picture-Div{
+  display: flex;
+  gap: 200px; 
+}
+
+.info-div{
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+}
+
+.btn-div{
+  margin-top: 25px;
+}
+
+.icon-text-pair {
+  display: flex;
+  align-items: center; 
+  gap: 30px; 
+}
+
+.emailme:hover{
+  color: white;
+  cursor: pointer;
+}
+
+.info-text{
+
+  color: white; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: larger;
+  text-decoration: none;
+}
+
+.h2-intro{
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.portrait {
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px rgba(128, 128, 128, 0.5); 
+}
+
+.button {
+  position: relative;
+  overflow: hidden;
+  height: 3rem;
+  padding: 0 2rem;
+  border-radius: 1.5rem;
+  background: #76ABAE;
+  background-size: 400%;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover::before {
+  transform: scaleX(1);
+}
+
+.button-content {
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+  background: linear-gradient(
+    82.3deg,
+    rgba(150, 93, 233, 1) 10.8%,
+    rgba(99, 88, 238, 1) 94.3%
+  );
+  transition: all 0.475s;
+}
+
+
+
+/*
+
+Page into css above
+
+*/
+
+
+
+
+
+
+
