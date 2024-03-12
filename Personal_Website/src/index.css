@@ -54,11 +54,12 @@ Page into css below
 
   color: #CCCCCC; 
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: larger;
+  font-size: 1.2rem;
   text-decoration: none;
 }
 
 .h2-intro{
+  font-size: 2.5rem;
   color: white;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -180,6 +181,65 @@ About me css above
 
 */
 
+
+
+
+
+
+
+
+
+
+
+/*
+
+Technologies CSS below
+
+*/
+
+.Technologies-Div{
+  background-color: #222831;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  min-height: 350px;
+  margin-top: -32px;
+}
+
+.content-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-skills{
+  color: #CCCCCC;
+  font-size: 1.2rem;
+}
+
+.Skills-Text-Div{
+  background-color: #222831;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.text-skills-headding{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  font-size: 2rem;
+}
+
+/*
+
+Technologies CSS above
+
+*/
 
 
 
