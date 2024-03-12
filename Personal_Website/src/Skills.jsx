@@ -6,7 +6,7 @@ function Skills(){
   return(
     <>
     <div className="Skills-Text-Div"> 
-        <p  className="text-skills-headding">My skills, tools and technologies pool:</p>
+        <h1  className="text-skills-headding">My skills, tools and technologies pool:</h1>
       <div className="Technologies-Div">
         <div className="content-div">
           <img width="96" height="96" src="https://img.icons8.com/officel/96/react.png" alt="react"/>
