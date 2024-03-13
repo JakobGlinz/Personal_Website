@@ -10,7 +10,7 @@ function Into(){
 
   return(
   <>
-    <div className="Intro-Div">
+    <div className="Intro-Div" id="contactMe">
       <div className="Everything-Div">
         <div className="Text-Picture-Div">
           <div className="info-div">

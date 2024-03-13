@@ -7,7 +7,7 @@ function AboutMe(){
 
   return(
     <>
-      <div className="AboutMe-Div">
+      <div className="AboutMe-Div" id="aboutme">
           <div className="Photo-Div">
             <img className="AboutMePic" src="src/assets/AboutMe.jpg" height="700" alt="This is a picture of Jakob Glinz mountainbiking"></img>
           </div>

@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
-import NavBar from './NavBar.jsx';
+import Navbar from './NavBar.jsx';
 import Intro from './IntroPage.jsx';
 import AboutMe from './AboutMe.jsx';
 import Skills from './Skills.jsx';
@@ -19,7 +19,7 @@ function App() {
       <Routes>
         <Route path="/" element={
                                   <>
-                                    <NavBar />
+                                    <Navbar />
                                     <Intro />
                                     <AboutMe />
                                     <Skills />

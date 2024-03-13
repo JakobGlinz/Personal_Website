@@ -5,7 +5,7 @@ function Skills(){
 
   return(
     <>
-    <div className="Skills-Text-Div"> 
+    <div className="Skills-Text-Div" id="techstack"> 
         <h1  className="text-skills-headding">My skills, tools and technologies pool:</h1>
       <div className="Technologies-Div">
         <div className="content-div">
